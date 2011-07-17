@@ -35,11 +35,11 @@ class Doomsday {
     static void help(){
 	System.out.println("Usage:\n");
 	System.out.println("List day(s) at: (1 argument)");
-	System.out.println("$ java Task5 <DD/MM/YYYY>");
-	System.out.println("Or\n$ java Task5 <MM/YYYY>");
-	System.out.println("Or\n$ java Task5 <YYYY>\n");
+	System.out.println("$ java Doomsday <DD/MM/YYYY>");
+	System.out.println("Or\n$ java Doomsday <MM/YYYY>");
+	System.out.println("Or\n$ java Doomsday <YYYY>\n");
 	System.out.println("List day(s) between: (2 arguments)");
-	System.out.println("$ java Task5 <DD/MM/YYYY> <DD/MM/YYYY>");
+	System.out.println("$ java Doomsday <DD/MM/YYYY> <DD/MM/YYYY>");
 	System.out.println("Or any combination of the single argument types.");
     }
 }
